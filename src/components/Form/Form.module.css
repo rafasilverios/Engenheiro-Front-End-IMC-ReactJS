@@ -99,3 +99,13 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
+
+@media (max-width: 600px) {
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .grid input {
+        font-size: 14px;
+    }
+}

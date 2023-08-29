@@ -22,3 +22,15 @@
     width: 64px;
     height: 64px;
 }
+
+@media (max-width: 600px) {
+    .title {
+        margin-top: 8px;
+        font-size: 24px;
+    }
+
+    .img {        
+        width: 48px;
+        height: 48px;
+    }
+}
