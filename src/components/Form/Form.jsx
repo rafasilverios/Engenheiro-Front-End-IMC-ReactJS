@@ -12,7 +12,9 @@ const Form = () => {
     }
 
     const renderizaResultado = () => {
-        if (resultado <= 18.5) {
+        if (resultado == 0) {
+            // Não irá aparecer textos ou alertas
+        } else if (resultado <= 18.5) {
             return (
                 <div className={styles.resultado}>
                     <h3>Seu IMC é: <b>{resultado.toFixed(2)}</b></h3>
